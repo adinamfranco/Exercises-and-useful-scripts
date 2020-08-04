@@ -1,0 +1,31 @@
+i = 0    # starting point of variable i
+while i <= 5:    # while i is less than 5, it print i
+    print(i)
+    i += 1    # increment to avoid infinite loop
+	
+# same result with idx in a list
+
+l = [1, 2, 3, 4, 5]
+idx = 0
+while idx <= 4:
+    print(l[idx])
+    idx += 1
+
+# printing a growing list
+
+i = 0    # starting point of variable i
+l = []   # starting an empty list
+while i <= 5:    # while i is less than 5, it append to l
+    l.append(i)
+    print(l)
+    i += 1    # increment to avoid infinite loop
+	
+# Same result with while True
+
+i = 0    # starting point of variable i
+l = []   # starting an empty list
+while True:
+    if i <= 5:
+        l.append(i)
+        print(l)
+        i += 1
